@@ -29,3 +29,15 @@ getAllBooks2('5391959').then(response => {
 }).catch(e =>{
   console.log('ERROR');
 });
+
+// import dotenv from 'dotenv';
+// dotenv.config();
+// const db_host = process.env.DB_HOST;
+console.log(process.env.DB_HOST);
+// fetch(process.env.DB_HOST)
+// .then((response) => {
+//   return response.json();
+// })
+// .then((response)=>{
+//   console.log(response);
+// })
