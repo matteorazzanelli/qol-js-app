@@ -11,21 +11,21 @@ async function getAllBooks(param){
 }
 
 getAllBooks('san francisco').then(response => {
-  console.log(response._embedded["city:search-results"][0]["_links"]["city:item"]);
+  console.log(response._embedded["city:search-results"][0]["_links"]["city:item"]["href"]);
 }).catch(e =>{
   console.log('ERROR');
 });
 
 
 async function getAllBooks2(param){
-  let request = await fetch(`https://api.teleport.org/api/urban_areas/slug:${param}/scores/`);
+  let request = await fetch(`https://api.teleport.org/api/cities/geonameid:${param}/`);
   let response = await request.json();
 
   return response;
 }
 
-getAllBooks2('san-francisco-bay-area').then(response => {
-  console.log(response);
+getAllBooks2('5391959').then(response => {
+  console.log(response["_links"]["city:urban_area"]["href"]);
 }).catch(e =>{
   console.log('ERROR');
 });
