@@ -13,29 +13,12 @@
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#about-the-project">About The Project</a></li>
     <li><a href="#getting-started">Getting Started</a></li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
-
-Realizzerai un'app che permetta di ottenere informazioni riguardo la qualità della vita delle città attraverso l’utilizzo del servizio esterno Teleport.
-
-General requirements:
-
-- The JS application allows the user to increment and decrement the counter value;
-- Two buttons (+/-) are available to change the counter value;
-- The user is also able to perfomr a soft or hard reset.
-
-Technical requirements:
-- The application must be developed with JavaScript.
-- The use of external JavaScript libraries is allowed, if necessary.
-- The +/- buttons, and also the counter value display must be implemented with JavaScript.
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -43,7 +26,7 @@ Technical requirements:
 1. Clone the repo
 
 ```sh
-git clone https://github.com/matteorazzanelli/simple-js-counter.git
+git clone git@github.com:matteorazzanelli/qol-js-app.git
 ```
 
 2. Launch `index.html` with your favorite browser.
@@ -51,10 +34,13 @@ git clone https://github.com/matteorazzanelli/simple-js-counter.git
 <!-- USAGE -->
 ## Usage
 
-- Hitting the `+` button will increment the counter value and `-` will decrement it.
-- The value can go below `0`.
-- Hitting `Soft reset` the user will be able to reset the counter only.
-- Hitting `Hard reset` the user will be able to reset the counter as well the notifications.
+Il sito ti permette di trovare il miglior posto dove vivere in base alle tue esigenze.
+- Digita una città nell’apposito campo
+- Sottometti la richiesta al sistema e aspetta per la risposta
+- Visualizza la o le città corrispondenti alla tua chiave di ricerca
+- Scegli su quale città fare il focus
+- Visualizza quanto quella città è vivibile in base ai criteri esistenti in un punteggio da 0 a 10
+
 
 <!-- CONTACT -->
 ## Contact
@@ -63,12 +49,9 @@ Matteo Razzanelli - matteo.razzanelli89@gmail.it
 
 Start2impact personal page - https://talent.start2impact.it/profile/matteo-razzanelli
 
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[issues-shield]: https://img.shields.io/github/issues/matteorazzanelli/simple-js-counter/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/matteorazzanelli/simple-js-counter/issues
+[issues-shield]: https://img.shields.io/github/issues/matteorazzanelli/qol-js-app/repo.svg?style=for-the-badge
+[issues-url]: https://github.com/matteorazzanelli/qol-js-app/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/matteo-razzanelli/
