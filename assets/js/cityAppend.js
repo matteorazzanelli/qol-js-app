@@ -8,6 +8,14 @@ let score_result = document.createElement('ul');
 score_result.setAttribute('id', 'score-result');
 
 export default async function appendResult(nameSearch, categorySearch, result){
+
+  // clear nodes
+  var child = list_result.lastElementChild; 
+  while (child) {
+    list_result.removeChild(child);
+    child = list_result.lastElementChild;
+  }
+
   result.innerHTML = "<br><br>The following results are obatined:<br><br>";  
   if(nameSearch === ''){
     // let response = await city_object.searchByCategory(categorySearch);
@@ -39,6 +47,13 @@ function renderList(element){
   // when the user click on the link, the scores appear
   a.onclick = async function (){
     let score = await city_object.searchById(element["_links"]["city:item"]["href"]);
+    // clear nodes
+    var child = score_result.lastElementChild;
+    while (child) {
+      score_result.removeChild(child);
+      child = score_result.lastElementChild;
+    }
+    score_result.textContent = " ";
     if(score === '')
       score_result.textContent = "Empty score";
     else
