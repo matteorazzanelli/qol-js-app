@@ -24,7 +24,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Simple application that works as a counter.
+Realizzerai un'app che permetta di ottenere informazioni riguardo la qualità della vita delle città attraverso l’utilizzo del servizio esterno Teleport.
 
 General requirements:
 
