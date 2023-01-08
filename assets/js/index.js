@@ -17,9 +17,7 @@ search.addEventListener("click", async (e) => {
   }
   else{
     // append the list of cities and the corresponding scores
-    result.innerHTML = '';
     let response = await appendResult(nameSearch.value, categorySearch.value, result);
-    console.log(response[0]);
     result.append(response[0], response[1]);
   }
 });

@@ -18,8 +18,8 @@ export default async function appendResult(nameSearch, categorySearch, result){
 
   result.innerHTML = "<br><br>The following results are obatined:<br><br>";  
   if(nameSearch === ''){
+    list_result.textContent = "The search by category is currently not possible.";
     // let response = await city_object.searchByCategory(categorySearch);
-    console.log('NONONONOO');
   }
   if(categorySearch === ''){
     city_object.searchByName(nameSearch).then(response => {
@@ -30,6 +30,7 @@ export default async function appendResult(nameSearch, categorySearch, result){
         score_result.textContent = "Empty score";
       }
       else{
+        list_result.textContent = " ";
         cities.forEach(renderList);
       }
     });
