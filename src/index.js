@@ -16,7 +16,7 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
-import appendResult from "./cityAppend.js";
+import appendResult from "./assets/js/cityAppend";
 
 const search = document.getElementById("submit-search");
 const nameSearch = document.querySelector("input");
