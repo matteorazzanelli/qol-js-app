@@ -9,6 +9,13 @@
   <p align="center">Project created for <strong>Start2Impact</strong> course: <em>Javascript Advanced</em></p>
 </div>
 
+### Built With
+
+* [HTML 5](https://developer.mozilla.org/en-US/docs/Glossary/HTML)
+* [CSS 3](https://developer.mozilla.org/en-US/docs/Web/CSS)
+* [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript?retiredLocale=it)
+* [Webpack 5](https://webpack.js.org/blog/2020-10-10-webpack-5-release/)
+
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary>Table of Contents</summary>
@@ -43,12 +50,15 @@ Il sito ti permette di trovare il miglior posto dove vivere in base alle tue esi
 
 
 <!-- CONTACT -->
-## Contact
+## Link & Contact
 
 Matteo Razzanelli - matteo.razzanelli89@gmail.it
 
 Start2impact personal page - https://talent.start2impact.it/profile/matteo-razzanelli
 
+Project Repository: [Quality of Life](https://github.com/matteorazzanelli/qol-js-appp)
+
+Project Website:  [Quality of Life - Firebase](https://qol-js-web-app.web.app/)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [issues-shield]: https://img.shields.io/github/issues/matteorazzanelli/qol-js-app/repo.svg?style=for-the-badge
