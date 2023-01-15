@@ -1,20 +1,22 @@
 // Import the functions you need from the SDKs you need
-import { initializeApp } from  "firebase/app"; //"https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js";
+import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js'; //"firebase/app"
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDdmzvm4uE2snN_RRomwyTeUdha_w0ZZg8",
-  authDomain: "js-qol.firebaseapp.com",
-  projectId: "js-qol",
-  storageBucket: "js-qol.appspot.com",
-  messagingSenderId: "475503748012",
-  appId: "1:475503748012:web:f76b14335c53ce1abc1009"
+  apiKey: "AIzaSyCoCHiydidqcR3ZsPNMlDArmm-rUC-vagk",
+  authDomain: "qol-js-web-app.firebaseapp.com",
+  projectId: "qol-js-web-app",
+  storageBucket: "qol-js-web-app.appspot.com",
+  messagingSenderId: "911797596776",
+  appId: "1:911797596776:web:00673f519fd894f0ef81dd"
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
+
+// "";
 
 import appendResult from "./assets/js/cityAppend.js";
 
